@@ -1,0 +1,14 @@
+#' @mssg_rangeonefive señaliza que columnas en un datset superan el valor 5 y cuales son inferiores al valor 1
+mssg_rangeonefive <- function(dataset){
+  for (n in 1: length(dataset)){
+    columna <- dataset[,n]
+    if (is.numeric(columna)){
+      if (min(columna) < 1){
+        print(paste("La columna", colnames(dataset)[n], "tiene un valor inferior a 1"))
+      }
+      if (max(columna) > 5){
+        print(paste("La columna", colnames(dataset)[n], "tiene un valor superior a 5"))
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+Package: opena
+Type: Package
+Title: Cálculo el Índice de Dispersión Nominal O
+Version: 0.1.0
+Author:  person("Esteban", "De Abreu", email = "estebandeabreu4@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0009-0004-7400-3439"))
+Description: Al insertar una variable con escala de medida nominal,
+    el paquete 'peña' calcula O, que constituye un índice de disipersión
+    relativa que compara la distribución en relación con una distribución
+    rectangular.
+License: use_gpl_license()
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3

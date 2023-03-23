@@ -1,0 +1,5 @@
+library(dplyr)
+delete_column <- function(dataset_and_name_column){
+  drop <- dataset_and_name_column[,!(names(dataset_and_name_column) %in% dataset_and_name_column)]
+  return(drop)
+}
