@@ -24,9 +24,9 @@ b)  Distribución perfectamente homogénea (0%, es decir que la fi<sub>modal</su
 # Código R
 
 ```{r, message=FALSE, warning=FALSE}
-o <- function(...){
-  hi_modal <- max(prop.table(table(...)))
-  k <- length(strsplit(levels(factor(...)),' '))
+o <- function(variable_nominal){
+  hi_modal <- max(prop.table(table(variable_nominal)))
+  k <- length(strsplit(levels(factor(variable_nominal)),' '))
   o_bruta <- ((1-hi_modal)/(1-(1/k)))*100
   return(paste(round(o_bruta, 2), "%", sep=" "))
 }
