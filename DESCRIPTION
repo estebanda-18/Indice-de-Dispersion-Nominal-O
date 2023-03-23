@@ -4,7 +4,7 @@ Title: Cálculo el Índice de Dispersión Nominal O
 Version: 0.1.0
 Author:  person("Esteban", "De Abreu", email = "estebandeabreu4@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0009-0004-7400-3439"))
 Description: Al insertar una variable con escala de medida nominal,
-    el paquete 'peña' calcula O, que constituye un índice de disipersión
+    el paquete 'opena' calcula O, que constituye un índice de dispersión
     relativa que compara la distribución en relación con una distribución
     rectangular.
 License: use_gpl_license()
